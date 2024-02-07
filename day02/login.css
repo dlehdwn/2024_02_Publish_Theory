@@ -1,0 +1,134 @@
+.register{
+    /* 글씨 색깔 */
+    color:#0078ff;
+    /* 배경 색갈 */
+    background-color: white;
+    /* 테두리 모양, 두께, 색깔 */
+    border:1px solid #0078ff;
+    /* 태두리 모서리 둥글게 */
+    border-radius: 4px;
+    /* 태두리, 컨탠츠 간격 */
+    padding: 3px 8px;
+    /* 글씨 크기 */
+    font-size: 14px;
+    /* 행간 */
+    line-height: 21px;
+}
+
+p{
+    display: inline;
+    color:#0078ff;
+    font-size: 14px;
+}
+ 
+@font-face {
+    font-family: 'musinsa'; 
+    src: url('musinsa-Medium.ttf') format('truetype'); 
+}
+
+.login{
+    display: block;
+    color:white;
+    background-color: black;
+    border:1px solid black;
+    border-radius: 4px;
+    width: 375px;
+    height: 50px;
+    font-family: 'musinsa';
+    font-weight: bold;
+    padding: 14px 16px;
+}
+
+.kakao{
+    display: block;
+    color:black;
+    background-color: #fee500;
+    border:1px solid #fee500;
+    border-radius: 4px;
+    width: 375px;
+    height: 50px;
+    font-family: 'musinsa';
+    font-weight: bold;
+    padding: 14px 16px;
+}
+
+.apple{
+    display: block;
+    color:black;
+    background-color:white;
+    border:1px solid #bfbfbf;
+    border-radius: 4px;
+    width: 375px;
+    height: 50px;
+    font-family: 'musinsa';
+    font-weight: bold;
+    padding: 14px 16px;
+
+}
+
+.icon{
+    margin-right: 5px;
+    font-size: 19px;
+}
+
+.round1{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #03CF5D;
+}
+
+.round1 > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    /* 이미지를 다 보이도록 최적화 */
+    object-fit: cover;
+
+}
+
+.round2{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+
+}
+
+.round2 > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.round3{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #0078ff;
+
+}
+
+.round3 > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.round4{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    border:1px solid #bfbfbf;
+
+}
+
+.round4 > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}

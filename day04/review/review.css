@@ -1,0 +1,112 @@
+.all{
+    width: 100vw;
+    height: 75vh;
+    display: flex;
+}
+
+.box1{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+}
+
+.box1 > div{
+    display: flex;
+    flex: 1;
+}
+
+.b1{
+    background-color: #f3a683;
+}
+.b2{
+    background-color: #f19066;
+}
+.b3{
+    background-color: #786fa6;
+}
+
+.box2{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+}
+
+.box2 > div{
+    display: flex;
+    flex:1;
+}
+
+.b4{
+    background-color: #f7d794;
+}
+.b5{
+    background-color: #f5cd79;
+}
+.b6{
+    background-color: #f8a5c2;
+}
+
+.box3{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+}
+
+.box3 > div{
+    display: flex;
+    flex:1;
+}
+
+.b7{
+    background-color: #778beb;
+}
+.b8{
+    background-color: #546de5;
+}
+.b9{
+    background-color: #63cdda;
+}
+
+.box4{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+}
+
+.box4 > div{
+    display: flex;
+    flex:1;
+}
+
+.b10{
+    background-color: #e77f67;
+}
+.b11{
+    background-color: #e15f41;
+}
+.b12{
+    background-color: #ea8685;
+}
+    
+
+.box5{
+    flex: 1;
+    flex-direction: column;
+    display: flex;
+}
+
+.box5 > div{
+    display: flex;
+    flex:1;
+}
+
+.b13{
+    background-color: #cf6a87;
+}
+.b14{
+    background-color: #c44569;
+}
+.b15{
+    background-color: #596275;
+}
+

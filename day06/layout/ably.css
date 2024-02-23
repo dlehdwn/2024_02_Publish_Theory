@@ -1,0 +1,37 @@
+header{
+    width: 100vw;
+    height: 80px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    /* 가운데 정렬(옛 버전) */
+    margin: 0 auto;
+    background-color: white;
+    
+}
+
+nav > .text > button{
+    border: none;
+    padding: 14px 16px;
+    background-color: transparent;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-weight: 600;
+    color: fgb(31,31,31);
+    cursor: pointer;
+}
+
+button:hover{
+    border-radius: 20px;
+    background-color: rgba(0,0,0,0.05);
+}
+
+.pink{
+    color: #ff5160;
+}
+

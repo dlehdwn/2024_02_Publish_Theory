@@ -1,0 +1,38 @@
+.card{
+    width: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;    
+}
+
+button{
+    width: 100px;
+    height: 54px;
+    border: none;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+button:hover{
+    transform: scale(1.3) rotate(30deg);
+}
+
+.imagebox{
+    width: 34px;
+    height: 34px;
+    padding-bottom: 6px;
+}
+
+.imagebox > img{
+    width: 100%;
+    height: 100%;
+}
+
+span{
+    font-size: 11px;
+}

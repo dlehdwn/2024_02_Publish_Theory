@@ -1,0 +1,45 @@
+header {
+	width: 100vw;
+	height: 10vh;
+}
+
+main {
+	width: 100vw;
+	height: 90vh;
+	display: flex;
+}
+
+aside {
+	flex: 2;
+	background-color: white;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.dashboard {
+	flex: 8;
+	padding: 30px;
+	gap: 20px;
+	display: flex;
+	flex-direction: column;
+}
+
+footer {
+	width: 100vw;
+	height: 10vh;
+	background-color: #ff7675;
+}
+
+.b {
+	width: 200px;
+	height: 50px;
+	border: none;
+	border-radius: 5px;
+	background-color: white;
+}
+
+.b:hover {
+	background-color: #0984e3;
+	color: white;
+}

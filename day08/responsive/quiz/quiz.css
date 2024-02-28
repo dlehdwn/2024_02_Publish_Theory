@@ -1,0 +1,52 @@
+.all {
+	display: flex;
+}
+
+.all > div {
+	display: flex;
+}
+
+.b1 {
+	width: 500px;
+	height: 500px;
+	display: flex;
+	background-color: red;
+}
+.b2 {
+	width: 500px;
+	height: 500px;
+	width: ;
+	display: flex;
+	background-color: yellow;
+}
+.b3 {
+	width: 500px;
+	height: 500px;
+	display: flex;
+	background-color: green;
+}
+.b4 {
+	width: 500px;
+	height: 500px;
+	width: ;
+	display: flex;
+	background-color: blue;
+}
+
+@media screen and (max-width: 1440px) {
+	.all {
+		flex-direction: row;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	.all {
+		flex-direction: column;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.all > div {
+		flex-direction: column;
+	}
+}
